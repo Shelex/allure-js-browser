@@ -1,17 +1,17 @@
 {
-  "compilerOptions": {
-    "target": "es2017",
-    "lib": ["es2017"],
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "declaration": true,
-    "strict": true,
-    "sourceMap": true,
-    "esModuleInterop": true,
-    "removeComments": true
-  },
-  "exclude": [
-    "node_modules"
-  ],
-  "compileOnSave": false
+    "compilerOptions": {
+        "target": "es2017",
+        "lib": ["es2017"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "strict": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "removeComments": true,
+        "outDir": "./dist"
+    },
+    "include": ["./src/**/*", "index.ts"],
+    "exclude": ["node_modules"],
+    "compileOnSave": false
 }

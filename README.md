@@ -1,37 +1,8 @@
-# Allure Javascript Integrations
-
-This project aggregates Allure Javascript commons and reporters. 
-
-## Supported frameworks
-
-### Cucumber.JS
-![npm](https://img.shields.io/npm/dm/allure-cucumberjs.svg) ![npm](https://img.shields.io/npm/v/allure-cucumberjs.svg)
-
-[Read more](/packages/allure-cucumberjs/README.md)
-
-
-### Jasmine
-![npm](https://img.shields.io/npm/dm/allure-jasmine.svg) ![npm](https://img.shields.io/npm/v/allure-jasmine.svg)
-
-[Read more](/packages/allure-jasmine/README.md)
-
-
-### Jest
-[Read more](/packages/allure-jest/README.md)
-
-
-### Mocha
-![npm](https://img.shields.io/npm/dm/allure-mocha.svg) ![npm](https://img.shields.io/npm/v/allure-mocha.svg)
-
-[Read more](/packages/allure-mocha/README.md)
-
-
-## Development
-
-### allure-js-commons
+# allure-js-commons
 
 Interface for Allure 2 to be used from Javascript and TypeScript.
+This is not intended to be used by the projects directly, only as a foundation for test framework reporters.
 
-![npm](https://img.shields.io/npm/dm/allure-js-commons.svg) ![npm](https://img.shields.io/npm/v/allure-js-commons.svg)
+### Authors
 
-[Read more](/packages/allure-js-commons/README.md)
+Ilya Korobitsyn <mail@korobochka.org>
