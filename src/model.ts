@@ -146,7 +146,7 @@ export enum ContentType {
     ZIP = 'application/zip',
     WEBM = 'video/webm',
     JPEG = 'image/jpeg'
-  }
+}
 
 export enum LinkType {
     ISSUE = 'issue',
