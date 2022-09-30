@@ -8,27 +8,31 @@ function typeToExtension(options) {
     }
     switch (options.contentType) {
         case model_1.ContentType.TEXT:
-            return 'txt';
+          return 'txt';
         case model_1.ContentType.XML:
-            return 'xml';
+          return 'xml';
+        case model_1.ContentType.HTML:
+          return 'html';
         case model_1.ContentType.CSV:
-            return 'csv';
+          return 'csv';
         case model_1.ContentType.TSV:
-            return 'tsv';
+          return 'tsv';
         case model_1.ContentType.CSS:
-            return 'css';
+          return 'css';
         case model_1.ContentType.URI:
-            return 'uri';
+          return 'uri';
         case model_1.ContentType.SVG:
-            return 'svg';
+          return 'svg';
         case model_1.ContentType.PNG:
-            return 'png';
+          return 'png';
         case model_1.ContentType.JSON:
-            return 'json';
+          return 'json';
+        case model_1.ContentType.ZIP:
+          return 'ZIP';
         case model_1.ContentType.WEBM:
-            return 'webm';
+          return 'webm';
         case model_1.ContentType.JPEG:
-            return 'jpg';
+          return 'jpg';
         default:
             throw new Error(`Unrecognized extension: ${options.contentType}`);
     }

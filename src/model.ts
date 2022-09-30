@@ -135,6 +135,7 @@ export enum Severity {
 export enum ContentType {
     TEXT = 'text/plain',
     XML = 'application/xml',
+    HTML = 'text/html',
     CSV = 'text/csv',
     TSV = 'text/tab-separated-values',
     CSS = 'text/css',
@@ -142,9 +143,10 @@ export enum ContentType {
     SVG = 'image/svg+xml',
     PNG = 'image/png',
     JSON = 'application/json',
+    ZIP = 'application/zip',
     WEBM = 'video/webm',
     JPEG = 'image/jpeg'
-}
+  }
 
 export enum LinkType {
     ISSUE = 'issue',
